@@ -1,0 +1,1708 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderRootNavigation navigates to PointDetail screen and renders the correct product 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNSScreenStack
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        collapsable={false}
+        forwardedRef={[Function]}
+        gestureResponseDistance={
+          {
+            "bottom": -1,
+            "end": -1,
+            "start": -1,
+            "top": -1,
+          }
+        }
+        nativeBackButtonDismissalEnabled={false}
+        onAppear={[Function]}
+        onDisappear={[Function]}
+        onDismissed={[Function]}
+        onHeaderBackButtonClicked={[Function]}
+        onNativeDismissCancelled={[Function]}
+        onTransitionProgress={[Function]}
+        onWillDisappear={[Function]}
+        replaceAnimation="push"
+        stackPresentation="push"
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        swipeDirection="horizontal"
+      >
+        <RNSScreenStackHeaderConfig
+          backButtonInCustomView={false}
+          backgroundColor="rgb(255, 255, 255)"
+          color="rgb(0, 122, 255)"
+          direction="ltr"
+          disableBackButtonMenu={false}
+          hidden={true}
+          hideBackButton={false}
+          largeTitleHideShadow={false}
+          title="pointWelcome"
+          titleColor="rgb(28, 28, 30)"
+          topInsetEnabled={false}
+          translucent={false}
+        />
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "column-reverse",
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                },
+                {
+                  "backgroundColor": "rgb(242, 242, 242)",
+                },
+                undefined,
+              ]
+            }
+          >
+            <RCTSafeAreaView
+              style={
+                {
+                  "backgroundColor": "#F3F3F3",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "stretch",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "paddingHorizontal": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexDirection": "column",
+                      "minHeight": 130,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Avenir",
+                        "fontSize": 20,
+                        "fontWeight": "800",
+                        "lineHeight": 27,
+                      }
+                    }
+                  >
+                    Bienvenido de vuelta!
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Avenir",
+                        "fontSize": 18,
+                        "fontWeight": "400",
+                        "lineHeight": 21,
+                      }
+                    }
+                  >
+                    Ruben Rodriguez
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "marginTop": 16,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#9B9898",
+                          "fontFamily": "Avenir",
+                          "fontSize": 14,
+                          "fontWeight": "800",
+                          "lineHeight": 19,
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Tus puntos
+                    </Text>
+                    <View
+                      style={
+                        {
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 20,
+                          "elevation": 5,
+                          "marginHorizontal": 30,
+                          "marginTop": 20,
+                          "overflow": "hidden",
+                          "padding": 20,
+                          "paddingBottom": 30,
+                          "shadowColor": "#000000",
+                          "shadowOffset": {
+                            "height": 4,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.25,
+                          "shadowRadius": 3.84,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#FFFFFF",
+                            "fontFamily": "Avenir",
+                            "fontSize": 18,
+                            "fontWeight": "800",
+                            "lineHeight": 22,
+                          }
+                        }
+                      >
+                         marzo
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#FFFFFF",
+                            "fontFamily": "Avenir",
+                            "fontSize": 30,
+                            "fontWeight": "800",
+                            "lineHeight": 43,
+                            "marginTop": 7,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        -76.550
+                         pts
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexDirection": "column",
+                      "flexGrow": 3,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#9B9898",
+                        "fontFamily": "Avenir",
+                        "fontSize": 14,
+                        "fontWeight": "800",
+                        "lineHeight": 19,
+                        "marginVertical": 20,
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  >
+                    TUS MOVIMIENTOS
+                  </Text>
+                  <RCTScrollView
+                    style={
+                      {
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 20,
+                        "flex": 1,
+                        "overflow": "hidden",
+                        "paddingHorizontal": 10,
+                        "paddingVertical": 5,
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 20,
+                            "overflow": "hidden",
+                            "paddingHorizontal": 10,
+                            "paddingTop": 10,
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "opacity": 1,
+                              "paddingBottom": 8,
+                              "width": "100%",
+                            }
+                          }
+                          testID="handleGoToDetail"
+                        >
+                          <Image
+                            source={
+                              {
+                                "uri": "https://loremflickr.com/640/480/transport",
+                              }
+                            }
+                            style={
+                              {
+                                "borderRadius": 10,
+                                "height": 55,
+                                "overflow": "hidden",
+                                "width": 55,
+                              }
+                            }
+                          />
+                          <View
+                            style={
+                              {
+                                "flexGrow": 3,
+                                "justifyContent": "space-between",
+                                "paddingLeft": 10,
+                                "width": "45%",
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 14,
+                                  "fontWeight": "800",
+                                  "lineHeight": 19,
+                                  "maxWidth": "100%",
+                                  "paddingBottom": 7,
+                                }
+                              }
+                            >
+                              Handmade Metal Shoes
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 12,
+                                  "fontWeight": "400",
+                                  "lineHeight": 16,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              09 de diciembre, 2022
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                                "flexGrow": 2,
+                                "justifyContent": "flex-end",
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                {
+                                  "color": "#00B833",
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              +
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              16.434
+                            </Text>
+                          </View>
+                          <Text
+                            style={
+                              {
+                                "fontFamily": "Avenir",
+                                "fontSize": 18,
+                                "fontWeight": "800",
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            &gt;
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "opacity": 1,
+                              "paddingBottom": 8,
+                              "width": "100%",
+                            }
+                          }
+                          testID="handleGoToDetail"
+                        >
+                          <Image
+                            source={
+                              {
+                                "uri": "https://loremflickr.com/640/480/technics",
+                              }
+                            }
+                            style={
+                              {
+                                "borderRadius": 10,
+                                "height": 55,
+                                "overflow": "hidden",
+                                "width": 55,
+                              }
+                            }
+                          />
+                          <View
+                            style={
+                              {
+                                "flexGrow": 3,
+                                "justifyContent": "space-between",
+                                "paddingLeft": 10,
+                                "width": "45%",
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 14,
+                                  "fontWeight": "800",
+                                  "lineHeight": 19,
+                                  "maxWidth": "100%",
+                                  "paddingBottom": 7,
+                                }
+                              }
+                            >
+                              Recycled Plastic Tuna
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 12,
+                                  "fontWeight": "400",
+                                  "lineHeight": 16,
+                                  "width": "100%",
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                                "flexGrow": 2,
+                                "justifyContent": "flex-end",
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                {
+                                  "color": "#FF0000",
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              -
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              92.984
+                            </Text>
+                          </View>
+                          <Text
+                            style={
+                              {
+                                "fontFamily": "Avenir",
+                                "fontSize": 18,
+                                "fontWeight": "800",
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            &gt;
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+                <View
+                  style={
+                    {
+                      "marginBottom": 20,
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 10,
+                          "height": 50,
+                          "justifyContent": "center",
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": "48%",
+                        }
+                      }
+                      testID="Button"
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "Avenir",
+                              "fontSize": 18,
+                              "fontWeight": "800",
+                              "lineHeight": 21,
+                              "textAlign": "center",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Ganados
+                      </Text>
+                    </View>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 10,
+                          "height": 50,
+                          "justifyContent": "center",
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": "48%",
+                        }
+                      }
+                      testID="Button"
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "Avenir",
+                              "fontSize": 18,
+                              "fontWeight": "800",
+                              "lineHeight": 21,
+                              "textAlign": "center",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Canjeados
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTSafeAreaView>
+          </View>
+        </View>
+      </RNSScreen>
+      <RNSScreen
+        collapsable={false}
+        forwardedRef={[Function]}
+        gestureResponseDistance={
+          {
+            "bottom": -1,
+            "end": -1,
+            "start": -1,
+            "top": -1,
+          }
+        }
+        nativeBackButtonDismissalEnabled={false}
+        onAppear={[Function]}
+        onDisappear={[Function]}
+        onDismissed={[Function]}
+        onHeaderBackButtonClicked={[Function]}
+        onNativeDismissCancelled={[Function]}
+        onTransitionProgress={[Function]}
+        onWillDisappear={[Function]}
+        replaceAnimation="push"
+        stackPresentation="push"
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        swipeDirection="horizontal"
+      >
+        <RNSScreenStackHeaderConfig
+          backButtonInCustomView={false}
+          backgroundColor="rgb(255, 255, 255)"
+          color="rgb(0, 122, 255)"
+          direction="ltr"
+          disableBackButtonMenu={false}
+          hidden={true}
+          hideBackButton={false}
+          largeTitleHideShadow={false}
+          title="PointDetail"
+          titleColor="rgb(28, 28, 30)"
+          topInsetEnabled={false}
+          translucent={false}
+        />
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "column-reverse",
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                },
+                {
+                  "backgroundColor": "rgb(242, 242, 242)",
+                },
+                undefined,
+              ]
+            }
+          >
+            <RCTSafeAreaView
+              style={
+                {
+                  "backgroundColor": "#F3F3F3",
+                  "flex": 1,
+                }
+              }
+            >
+              <RCTScrollView
+                contentContainerStyle={
+                  {
+                    "backgroundColor": "#F3F3F3",
+                    "flex": 1,
+                  }
+                }
+                contentInsetAdjustmentBehavior="automatic"
+              >
+                <View>
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "white",
+                        "flex": 1,
+                        "flexDirection": "column",
+                        "height": "100%",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "backgroundColor": "#CFD6FF",
+                          "height": 100,
+                          "justifyContent": "flex-end",
+                          "paddingBottom": 20,
+                          "paddingHorizontal": 20,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "fontFamily": "Avenir",
+                            "fontSize": 20,
+                            "fontWeight": "800",
+                            "lineHeight": 24,
+                          }
+                        }
+                      >
+                        Handmade Metal Shoes
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        {
+                          "flex": 1,
+                          "flexGrow": 1,
+                          "paddingHorizontal": 30,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "elevation": 5,
+                            "flexGrow": 1,
+                            "shadowColor": "#000000",
+                            "shadowOffset": {
+                              "height": 4,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 3.84,
+                          }
+                        }
+                      >
+                        <Image
+                          resizeMode="cover"
+                          source={
+                            {
+                              "uri": "https://loremflickr.com/640/480/transport",
+                            }
+                          }
+                          style={
+                            {
+                              "borderRadius": 10,
+                              "flexGrow": 2,
+                              "minHeight": 250,
+                              "overflow": "hidden",
+                              "paddingVertical": 10,
+                              "width": "100%",
+                            }
+                          }
+                          testID="pointDetailImage"
+                        />
+                      </View>
+                      <Text
+                        style={
+                          {
+                            "color": "#9B9898",
+                            "fontFamily": "Avenir",
+                            "fontSize": 14,
+                            "fontWeight": "800",
+                            "lineHeight": 19,
+                            "paddingBottom": 20,
+                            "paddingTop": 32,
+                          }
+                        }
+                      >
+                        Detalles del producto:
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "fontFamily": "Avenir",
+                            "fontSize": 18,
+                            "fontWeight": "800",
+                            "lineHeight": 21,
+                          }
+                        }
+                      >
+                        Comprado el 
+                        09 de diciembre, 2022
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#9B9898",
+                            "fontFamily": "Avenir",
+                            "fontSize": 14,
+                            "fontWeight": "800",
+                            "lineHeight": 19,
+                            "paddingBottom": 20,
+                            "paddingTop": 32,
+                          }
+                        }
+                      >
+                        Con esta compra acumulaste:
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "fontFamily": "Avenir",
+                            "fontSize": 20,
+                            "fontWeight": "800",
+                            "lineHeight": 32,
+                            "marginBottom": 20,
+                          }
+                        }
+                      >
+                        16.434
+                         puntos
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        {
+                          "flex": 0.1,
+                          "paddingHorizontal": 30,
+                          "paddingVertical": 20,
+                        }
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#334FFA",
+                            "borderRadius": 10,
+                            "height": 50,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "overflow": "hidden",
+                            "width": "100%",
+                          }
+                        }
+                        testID="Button"
+                      >
+                        <Text
+                          style={
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "Avenir",
+                                "fontSize": 18,
+                                "fontWeight": "800",
+                                "lineHeight": 21,
+                                "textAlign": "center",
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          Aceptar
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </RCTScrollView>
+            </RCTSafeAreaView>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenStack>
+  </RNCSafeAreaProvider>
+</RCTSafeAreaView>
+`;
+
+exports[`renderRootNavigation renders PointWelcome screen by default 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNSScreenStack
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        collapsable={false}
+        forwardedRef={[Function]}
+        gestureResponseDistance={
+          {
+            "bottom": -1,
+            "end": -1,
+            "start": -1,
+            "top": -1,
+          }
+        }
+        nativeBackButtonDismissalEnabled={false}
+        onAppear={[Function]}
+        onDisappear={[Function]}
+        onDismissed={[Function]}
+        onHeaderBackButtonClicked={[Function]}
+        onNativeDismissCancelled={[Function]}
+        onTransitionProgress={[Function]}
+        onWillDisappear={[Function]}
+        replaceAnimation="push"
+        stackPresentation="push"
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        swipeDirection="horizontal"
+      >
+        <RNSScreenStackHeaderConfig
+          backButtonInCustomView={false}
+          backgroundColor="rgb(255, 255, 255)"
+          color="rgb(0, 122, 255)"
+          direction="ltr"
+          disableBackButtonMenu={false}
+          hidden={true}
+          hideBackButton={false}
+          largeTitleHideShadow={false}
+          title="pointWelcome"
+          titleColor="rgb(28, 28, 30)"
+          topInsetEnabled={false}
+          translucent={false}
+        />
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "column-reverse",
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                },
+                {
+                  "backgroundColor": "rgb(242, 242, 242)",
+                },
+                undefined,
+              ]
+            }
+          >
+            <RCTSafeAreaView
+              style={
+                {
+                  "backgroundColor": "#F3F3F3",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "stretch",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "paddingHorizontal": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexDirection": "column",
+                      "minHeight": 130,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Avenir",
+                        "fontSize": 20,
+                        "fontWeight": "800",
+                        "lineHeight": 27,
+                      }
+                    }
+                  >
+                    Bienvenido de vuelta!
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Avenir",
+                        "fontSize": 18,
+                        "fontWeight": "400",
+                        "lineHeight": 21,
+                      }
+                    }
+                  >
+                    Ruben Rodriguez
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "marginTop": 16,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#9B9898",
+                          "fontFamily": "Avenir",
+                          "fontSize": 14,
+                          "fontWeight": "800",
+                          "lineHeight": 19,
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Tus puntos
+                    </Text>
+                    <View
+                      style={
+                        {
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 20,
+                          "elevation": 5,
+                          "marginHorizontal": 30,
+                          "marginTop": 20,
+                          "overflow": "hidden",
+                          "padding": 20,
+                          "paddingBottom": 30,
+                          "shadowColor": "#000000",
+                          "shadowOffset": {
+                            "height": 4,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.25,
+                          "shadowRadius": 3.84,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#FFFFFF",
+                            "fontFamily": "Avenir",
+                            "fontSize": 18,
+                            "fontWeight": "800",
+                            "lineHeight": 22,
+                          }
+                        }
+                      >
+                         marzo
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#FFFFFF",
+                            "fontFamily": "Avenir",
+                            "fontSize": 30,
+                            "fontWeight": "800",
+                            "lineHeight": 43,
+                            "marginTop": 7,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        -76.550
+                         pts
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexDirection": "column",
+                      "flexGrow": 3,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#9B9898",
+                        "fontFamily": "Avenir",
+                        "fontSize": 14,
+                        "fontWeight": "800",
+                        "lineHeight": 19,
+                        "marginVertical": 20,
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  >
+                    TUS MOVIMIENTOS
+                  </Text>
+                  <RCTScrollView
+                    style={
+                      {
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 20,
+                        "flex": 1,
+                        "overflow": "hidden",
+                        "paddingHorizontal": 10,
+                        "paddingVertical": 5,
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 20,
+                            "overflow": "hidden",
+                            "paddingHorizontal": 10,
+                            "paddingTop": 10,
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "opacity": 1,
+                              "paddingBottom": 8,
+                              "width": "100%",
+                            }
+                          }
+                          testID="handleGoToDetail"
+                        >
+                          <Image
+                            source={
+                              {
+                                "uri": "https://loremflickr.com/640/480/transport",
+                              }
+                            }
+                            style={
+                              {
+                                "borderRadius": 10,
+                                "height": 55,
+                                "overflow": "hidden",
+                                "width": 55,
+                              }
+                            }
+                          />
+                          <View
+                            style={
+                              {
+                                "flexGrow": 3,
+                                "justifyContent": "space-between",
+                                "paddingLeft": 10,
+                                "width": "45%",
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 14,
+                                  "fontWeight": "800",
+                                  "lineHeight": 19,
+                                  "maxWidth": "100%",
+                                  "paddingBottom": 7,
+                                }
+                              }
+                            >
+                              Handmade Metal Shoes
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 12,
+                                  "fontWeight": "400",
+                                  "lineHeight": 16,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              09 de diciembre, 2022
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                                "flexGrow": 2,
+                                "justifyContent": "flex-end",
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                {
+                                  "color": "#00B833",
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              +
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              16.434
+                            </Text>
+                          </View>
+                          <Text
+                            style={
+                              {
+                                "fontFamily": "Avenir",
+                                "fontSize": 18,
+                                "fontWeight": "800",
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            &gt;
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "opacity": 1,
+                              "paddingBottom": 8,
+                              "width": "100%",
+                            }
+                          }
+                          testID="handleGoToDetail"
+                        >
+                          <Image
+                            source={
+                              {
+                                "uri": "https://loremflickr.com/640/480/technics",
+                              }
+                            }
+                            style={
+                              {
+                                "borderRadius": 10,
+                                "height": 55,
+                                "overflow": "hidden",
+                                "width": 55,
+                              }
+                            }
+                          />
+                          <View
+                            style={
+                              {
+                                "flexGrow": 3,
+                                "justifyContent": "space-between",
+                                "paddingLeft": 10,
+                                "width": "45%",
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 14,
+                                  "fontWeight": "800",
+                                  "lineHeight": 19,
+                                  "maxWidth": "100%",
+                                  "paddingBottom": 7,
+                                }
+                              }
+                            >
+                              Recycled Plastic Tuna
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 12,
+                                  "fontWeight": "400",
+                                  "lineHeight": 16,
+                                  "width": "100%",
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                                "flexGrow": 2,
+                                "justifyContent": "flex-end",
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                {
+                                  "color": "#FF0000",
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              -
+                            </Text>
+                            <Text
+                              style={
+                                {
+                                  "fontFamily": "Avenir",
+                                  "fontSize": 18,
+                                  "fontWeight": "800",
+                                  "lineHeight": 21,
+                                }
+                              }
+                            >
+                              92.984
+                            </Text>
+                          </View>
+                          <Text
+                            style={
+                              {
+                                "fontFamily": "Avenir",
+                                "fontSize": 18,
+                                "fontWeight": "800",
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            &gt;
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+                <View
+                  style={
+                    {
+                      "marginBottom": 20,
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 10,
+                          "height": 50,
+                          "justifyContent": "center",
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": "48%",
+                        }
+                      }
+                      testID="Button"
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "Avenir",
+                              "fontSize": 18,
+                              "fontWeight": "800",
+                              "lineHeight": 21,
+                              "textAlign": "center",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Ganados
+                      </Text>
+                    </View>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#334FFA",
+                          "borderRadius": 10,
+                          "height": 50,
+                          "justifyContent": "center",
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": "48%",
+                        }
+                      }
+                      testID="Button"
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "Avenir",
+                              "fontSize": 18,
+                              "fontWeight": "800",
+                              "lineHeight": 21,
+                              "textAlign": "center",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Canjeados
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTSafeAreaView>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenStack>
+  </RNCSafeAreaProvider>
+</RCTSafeAreaView>
+`;
